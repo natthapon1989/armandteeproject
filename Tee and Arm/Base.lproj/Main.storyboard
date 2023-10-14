@@ -84,10 +84,32 @@
             </objects>
             <point key="canvasLocation" x="806.87022900763361" y="-27.464788732394368"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="fI4-wb-a8t">
+            <objects>
+                <viewController id="xMH-LS-icY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1O2-w5-YZ4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.arrow.up.on.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xC7-yr-Wh3">
+                                <rect key="frame" x="76" y="251" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4LV-Bi-5Ui"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Igp-cA-nCt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1537" y="-16"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Image" width="1200" height="800"/>
         <image name="Image 1" width="2560" height="1347"/>
+        <image name="square.and.arrow.up.on.square.fill" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
